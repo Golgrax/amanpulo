@@ -62,25 +62,18 @@
 			});
 
 	// Header.
-		// Enhanced Header Effect
-if ($banner.length > 0 && $header.hasClass('alt')) {
-    $window.on('resize', function() { 
-        $window.trigger('scroll'); 
-    });
+		if ($banner.length > 0
+		&&	$header.hasClass('alt')) {
 
-    $banner.scrollex({
-        bottom: $header.outerHeight() + 1,
-        terminate: function() { 
-            $header.removeClass('alt fade-in'); 
-        },
-        enter: function() { 
-            $header.addClass('alt fade-in'); 
-        },
-        leave: function() { 
-            $header.removeClass('alt fade-in'); 
-        }
-    });
-}
+			$window.on('resize', function() { $window.trigger('scroll'); });
 
+			$banner.scrollex({
+				bottom:		$header.outerHeight() + 1,
+				terminate:	function() { $header.removeClass('alt'); },
+				enter:		function() { $header.addClass('alt'); },
+				leave:		function() { $header.removeClass('alt'); }
+			});
+
+		}
 
 })(jQuery);
