@@ -9,6 +9,46 @@
 	</head>
 	<body class="is-preload">
 
+        <style>
+
+table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    td {
+        word-wrap: break-word;
+        vertical-align: top;
+        text-align: center;
+        width: 33.33%;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        max-width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    @media screen and (max-width: 600px) {
+        table {
+            width: 100%;
+        }
+
+        td {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+        img {
+            margin: 0 auto;
+        }
+    }
+        </style>
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
