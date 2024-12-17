@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #554a40;
+		background: #5e7d99;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -156,6 +156,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: white;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -245,7 +246,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(144, 144, 144, 0.25);
+		background: rgba(101, 134, 136, 0.25);
 		border-radius: 3px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
@@ -295,6 +296,7 @@ input, select, textarea {
 
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
+			color: white;
 		}
 
 		.row.aln-left {
@@ -783,6 +785,7 @@ input, select, textarea {
 
 				.row.gtr-uniform > * > :last-child {
 					margin-bottom: 0;
+					color: #b6b6b6;
 				}
 
 				.row.aln-left {
@@ -1831,7 +1834,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background-color: rgba(144, 144, 144, 0.25);
+		background-color: rgba(125, 143, 148, 0.25);
 		border-radius: 3px;
 		border: none;
 		color: inherit;
@@ -1880,6 +1883,7 @@ input, select, textarea {
 	input[type="email"],
 	select {
 		height: 2.75em;
+		color: white;
 	}
 
 	textarea {
@@ -1945,7 +1949,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #554a40;
+			background: #556981;
 			color: #fff;
 			content: '\f00c';
 		}
@@ -2074,15 +2078,15 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #dac2ad;
+			color: #addad4;
 		}
 
 		.icon.style2 {
-			color: #dac2ad;
+			color: #adcada;
 		}
 
 		.icon.style3 {
-			color: #dac2ad;
+			color: #add1da;
 		}
 
 /* Image */
@@ -2435,7 +2439,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(144, 144, 144, 0.25);
+			background-color: rgba(133, 148, 147, 0.25);
 		}
 
 		input[type="submit"]:active,
@@ -2443,7 +2447,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(144, 144, 144, 0.5);
+			background-color: rgba(136, 146, 146, 0.5);
 		}
 
 		input[type="submit"].icon:before,
@@ -2483,7 +2487,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #3333ed;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2493,7 +2497,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #4adcef !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2501,7 +2505,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #1caaeb !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2559,7 +2563,7 @@ input, select, textarea {
 		}
 
 			.features li:nth-child(1) {
-				background-color: rgba(0, 0, 0, 0.035);
+				background-color: rgb(0 78 255 / 23%);
 			}
 
 			.features li:nth-child(2) {
@@ -2571,11 +2575,11 @@ input, select, textarea {
 			}
 
 			.features li:nth-child(4) {
-				background-color: rgba(0, 0, 0, 0.14);
+				background-color: rgb(0 78 255 / 23%);
 			}
 
 			.features li:nth-child(5) {
-				background-color: rgba(0, 0, 0, 0.175);
+				background-color: rgb(0 78 255 / 23%);
 			}
 
 			.features li:nth-child(6) {
@@ -2699,15 +2703,15 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: #314c64;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: #3e678c;
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: #4f86b9;
 		}
 
 		.spotlight:nth-child(4) {
@@ -2796,6 +2800,7 @@ input, select, textarea {
 
 				.wrapper > .inner {
 					width: 90%;
+					background-color: #3e527c;
 				}
 
 			}
@@ -2813,7 +2818,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #412c1d;
+			background-color: #365f84d4;
 			color: #ffffff;
 		}
 
@@ -2972,11 +2977,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #554a40;
+			background-color: #404d55;
 		}
 
 		.wrapper.style3 {
-			background-color: #43261e;
+			background-color: #3674ac8f;
 			color: #d3d4e4;
 		}
 
@@ -3135,20 +3140,20 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
-			background-color: transparent;
+			background-color: #202961;
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
-			color: #4E4852;
+			background-color: #20296182;
+			color: #50485547;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
-				color: #554a40;
+				color: #556981;
 			}
 
 			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
-				color: #554a40;
+				color: #e9e9e9;
 			}
 
 			.wrapper.style5 hr {
@@ -3164,7 +3169,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 header p {
-				color: #8E8892;
+				color: #cdcdcd;
 			}
 
 			.wrapper.style5 header.major h2, .wrapper.style5 header.major h3, .wrapper.style5 header.major h4, .wrapper.style5 header.major h5, .wrapper.style5 header.major h6 {
@@ -3176,7 +3181,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 label {
-				color: #554a40;
+				color: #556981;
 			}
 
 			.wrapper.style5 input[type="text"],
@@ -3184,7 +3189,8 @@ input, select, textarea {
 			.wrapper.style5 input[type="email"],
 			.wrapper.style5 select,
 			.wrapper.style5 textarea {
-				background-color: rgba(0, 0, 0, 0.0375);
+				background-color: rgb(255 255 255 / 23%);
+				color: white;
 			}
 
 			.wrapper.style5 select {
@@ -3192,13 +3198,13 @@ input, select, textarea {
 			}
 
 				.wrapper.style5 select option {
-					color: #554a40;
+					color: #6c849b;
 					background: #ffffff;
 				}
 
 			.wrapper.style5 input[type="checkbox"] + label,
 			.wrapper.style5 input[type="radio"] + label {
-				color: #4E4852;
+				color: #a2ffff;
 			}
 
 				.wrapper.style5 input[type="checkbox"] + label:before,
@@ -3208,28 +3214,28 @@ input, select, textarea {
 
 			.wrapper.style5 input[type="checkbox"]:checked + label:before,
 			.wrapper.style5 input[type="radio"]:checked + label:before {
-				background: #554a40;
+				background: #8bbdc4;
 				color: #ffffff;
 			}
 
 			.wrapper.style5 ::-webkit-input-placeholder {
-				color: #8E8892 !important;
+				color: #cdcdcd !important;
 			}
 
 			.wrapper.style5 :-moz-placeholder {
-				color: #8E8892 !important;
+				color: #cdcdcd !important;
 			}
 
 			.wrapper.style5 ::-moz-placeholder {
-				color: #8E8892 !important;
+				color: #cdcdcd !important;
 			}
 
 			.wrapper.style5 :-ms-input-placeholder {
-				color: #8E8892 !important;
+				color: #cdcdcd !important;
 			}
 
 			.wrapper.style5 .formerize-placeholder {
-				color: #8E8892 !important;
+				color: #cdcdcd !important;
 			}
 
 			.wrapper.style5 .icon.major {
@@ -3249,7 +3255,8 @@ input, select, textarea {
 				}
 
 			.wrapper.style5 table th {
-				color: #554a40;
+				color: #71ffff;
+
 			}
 
 			.wrapper.style5 table thead {
@@ -3270,7 +3277,7 @@ input, select, textarea {
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
 				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #554a40;
+				color: #71ffff;
 			}
 
 				.wrapper.style5 input[type="submit"]:hover,
@@ -3325,7 +3332,7 @@ input, select, textarea {
 	}
 
 		#page-wrapper:before {
-			background: rgba(0, 0, 0, 0);
+			background: rgb(0 49 255 / 59%);
 			content: '';
 			display: block;
 			display: none;
@@ -3345,14 +3352,14 @@ input, select, textarea {
 		-moz-transition: -moz-transform 0.5s ease;
 		-webkit-transition: -webkit-transform 0.5s ease;
 		-ms-transition: -ms-transform 0.5s ease;
-		transition: transform 0.5s ease;
+		transition: transform 2s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #736b43;
+		background: #435c73;
 		color: #ffffff;
 		height: 100%;
-		max-width: 80%;
+		max-width: 100%;
 		overflow-y: auto;
-		padding: 3em 2em;
+		padding: 17em 2em;
 		position: fixed;
 		right: 0;
 		top: 0;
@@ -3441,7 +3448,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #554a40;
+		background: #2a2d51;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3567,23 +3574,24 @@ input, select, textarea {
 	-moz-flex-direction: column;
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
-	flex-direction: column;
 	-moz-justify-content: center;
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
-	justify-content: center;
-	align-items: center; /* Center content horizontally */
+	 /* Center content horizontally */
 	cursor: pointer; /* Add a pointer cursor for interactivity */
 	height: 100vh;
+	width: auto;
 	min-height: 35em;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	background: linear-gradient(135deg, #72551e46, #2a529844); /* Vibrant gradient background */
+	background: linear-gradient(135deg, #4c96a81f, #6dadba1a); /* Vibrant gradient background */
 	color: white;
-	animation: scaleUp 15s infinite alternate ease-in-out; /* Subtle scaling animation */
+	animation: scaleUp 15s infinite alternate cubic-bezier(0.77, -0.18, 0, 0.82); /* Subtle scaling animation */
 	box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5); /* Inner glow effect */
-	transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition for hover or interactions */
+	transition: transform 0.5s cubic-bezier(0.88, 0.05, 0, 1.28), opacity 0.5s ease; /* Smooth transition for hover or interactions */
+	flex-wrap: wrap;
+	align-items: stretch;
 }
 
 #banner:hover {
@@ -3627,10 +3635,10 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				background: #fff;
+				background: #00c0ff;
 				content: '';
 				display: block;
-				height: 2px;
+				height: 6px;
 				position: absolute;
 				width: 100%;
 			}
@@ -3670,9 +3678,9 @@ input, select, textarea {
 			border: none;
 			bottom: 0;
 			color: inherit;
-			font-size: 0.8em;
-			height: 8.5em;
-			left: 50%;
+			font-size: 1.8em;
+			height: 9.5em;
+			left: 51%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
 			opacity: 1;
@@ -3711,7 +3719,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #554a40;
+			background: #556981;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3831,10 +3839,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3902,8 +3910,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
-		background-color: #3b3f38;
+		padding: 6em 0 4em 0;
+		background-color: #0c234b;
 		text-align: center;
 	}
 
@@ -3981,10 +3989,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -4002,19 +4010,35 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/abg.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://chua-lala-faith.pages.dev/assets/images/home/banner.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #3b3f38;
+		background-color: #3f495c;
 	}
 
 
 
-	
+	/* Styling for the Check-in and Check-out Date Fields */
+input[type="date"] {
+    width: 100%; /* Make the input fields take up the full width of the parent */
+    padding: 10px; /* Add padding for better spacing */
+    margin: 10px 0; /* Add margin to separate from other elements */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for the input box */
+    background-color: #f9f9f9; /* Light background color */
+    font-size: 16px; /* Increase font size for better readability */
+    color: #333; /* Dark text color */
+}
+
+input[type="date"]:focus {
+    border-color: #007bff; /* Highlight the border when the field is focused */
+    background-color: #fff; /* Make the background white on focus */
+    outline: none; /* Remove the default outline */
+}
